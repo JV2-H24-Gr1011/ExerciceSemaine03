@@ -38,7 +38,7 @@ private float repeatTime ;
         instantiated.transform.position = new Vector3(
 
             Random.Range(transform.position.x - zoneSize.x / 2, transform.position.x + zoneSize.x / 2),
-            Random.Range(transform.position.y - zoneSize.x / 2, transform.position.y + zoneSize.y / 2),
+            Random.Range(transform.position.y - zoneSize.y / 2, transform.position.y + zoneSize.y / 2),
             Random.Range(transform.position.z - zoneSize.z / 2, transform.position.z + zoneSize.z / 2)
         );
 
